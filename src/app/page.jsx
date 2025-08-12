@@ -7,8 +7,8 @@ export default function Home() {
       <div className={styles.mainContent}>
         <div className={styles.leftBlock}>
           <h1 className={styles.title}>Mini Wiki Tech</h1>
-          <h2 className={styles.subtitle}>Subtítulo explicativo</h2>
-          <p className={styles.paragraph}>Este é um parágrafo de exemplo para testar a estrutura da página. Sinta-se à vontade para editar este texto.</p>
+          <h2 className={styles.subtitle}>Explicações técnicas e pesquisas sobre tecnologias do mercado.</h2>
+          <p className={styles.paragraph}>Aqui você encontrará uma variedade de recursos e informações sobre as últimas tendências em tecnologia.</p>
           <div className={styles.buttonRow}>
             <button className={styles.btn}>Botão 1</button>
             <button className={styles.btn}>Botão 2</button>
@@ -21,14 +21,14 @@ export default function Home() {
               <Image src="/images/rapha.jpg" alt="img4" width={48} height={48} className={styles.roundImg} />
               <Image src="/images/sara.jpg" alt="img5" width={48} height={48} className={styles.roundImg} />
             </div>
-            <button className={styles.btnSide}>Botão ao lado</button>
+            <button className={styles.btnSide}>Botão</button>
           </div>
         </div>
         <div className={styles.rightBlock}>
           <Image src="/images/favicon.ico" alt="imagem grande" width={220} height={220} className={styles.bigImg} />
           <div className={styles.bigButtons}>
-            <button className={styles.btnBig}>Botão Grande 1</button>
-            <button className={styles.btnBig}>Botão Grande 2</button>
+            <button className={styles.btnBig}>GitHub</button>
+            <button className={styles.btnBig}>LinkedIn</button>
           </div>
         </div>
       </div>
