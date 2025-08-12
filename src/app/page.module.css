@@ -20,6 +20,7 @@
   height: 90%;
 }
 
+
 .left-block {
   display: flex;
   flex-direction: column;
@@ -71,6 +72,7 @@
   background: #0059c1;
 }
 
+
 .images-row {
   display: flex;
   align-items: center;
@@ -104,22 +106,26 @@
   align-items: center;
   gap: 24px;
 }
+
 .big-img {
   border-radius: 18px;
   border: 3px solid #e0e0e0;
   background: #fff;
 }
+
 .big-buttons {
   display: flex;
   gap: 24px;
   margin-top: 12px;
 }
+
 .btn-big {
   padding: 16px 40px;
   font-size: 1.2rem;
   border-radius: 12px;
   background: #43a047;
 }
+
 .btn-big:hover {
   background: #2e7031;
 }
