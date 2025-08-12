@@ -1,34 +1,33 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <div className={styles.mainContent}>
-        <div className={styles.leftBlock}>
-          <h1 className={styles.title}>Mini Wiki Tech</h1>
-          <h2 className={styles.subtitle}>Subtítulo explicativo</h2>
-          <p className={styles.paragraph}>Este é um parágrafo de exemplo para testar a estrutura da página. Sinta-se à vontade para editar este texto.</p>
-          <div className={styles.buttonRow}>
-            <button className={styles.btn}>Botão 1</button>
-            <button className={styles.btn}>Botão 2</button>
+    <div className="container">
+      <div className="main-content">
+        <div className="left-block">
+          <h1 className="title">Mini Wiki Tech</h1>
+          <h2 className="subtitle">Subtítulo explicativo</h2>
+          <p className="paragraph">Este é um parágrafo de exemplo para testar a estrutura da página. Sinta-se à vontade para editar este texto.</p>
+          <div className="button-row">
+            <button className="btn">Botão 1</button>
+            <button className="btn">Botão 2</button>
           </div>
-          <div className={styles.imagesRow}>
-            <div className={styles.smallImages}>
-              <Image src="/images/eu.jpg" alt="img1" width={48} height={48} className={styles.roundImg} />
-              <Image src="/images/fernanda.jpg" alt="img2" width={48} height={48} className={styles.roundImg} />
-              <Image src="/images/nathalia.jpg" alt="img3" width={48} height={48} className={styles.roundImg} />
-              <Image src="/images/rapha.jpg" alt="img4" width={48} height={48} className={styles.roundImg} />
-              <Image src="/images/sara.jpg" alt="img5" width={48} height={48} className={styles.roundImg} />
+          <div className="images-row">
+            <div className="small-images">
+              <Image src="/images/favicon.ico" alt="img1" width={48} height={48} className="round-img" />
+              <Image src="/images/favicon.ico" alt="img2" width={48} height={48} className="round-img" />
+              <Image src="/images/favicon.ico" alt="img3" width={48} height={48} className="round-img" />
+              <Image src="/images/favicon.ico" alt="img4" width={48} height={48} className="round-img" />
+              <Image src="/images/favicon.ico" alt="img5" width={48} height={48} className="round-img" />
             </div>
-            <button className={styles.btnSide}>Botão ao lado</button>
+            <button className="btn btn-side">Botão ao lado</button>
           </div>
         </div>
-        <div className={styles.rightBlock}>
-          <Image src="/images/favicon.ico" alt="imagem grande" width={220} height={220} className={styles.bigImg} />
-          <div className={styles.bigButtons}>
-            <button className={styles.btnBig}>Botão Grande 1</button>
-            <button className={styles.btnBig}>Botão Grande 2</button>
+        <div className="right-block">
+          <Image src="/images/favicon.ico" alt="imagem grande" width={220} height={220} className="big-img" />
+          <div className="big-buttons">
+            <button className="btn btn-big">Botão Grande 1</button>
+            <button className="btn btn-big">Botão Grande 2</button>
           </div>
         </div>
       </div>

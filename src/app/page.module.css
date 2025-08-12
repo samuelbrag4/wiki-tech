@@ -8,10 +8,10 @@
   background: #161616;
 }
 
-.mainContent {
+.main-content {
   display: flex;
   gap: 48px;
-  background-color: #fff;
+  background: #fff;
   border-radius: 24px;
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
   padding: 48px 56px;
@@ -20,7 +20,8 @@
   height: 90%;
 }
 
-.leftBlock {
+
+.left-block {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -49,7 +50,7 @@
   background-color: blue;
 }
 
-.buttonRow {
+.button-row {
   display: flex;
   gap: 16px;
   background-color: chartreuse;
@@ -71,7 +72,8 @@
   background: #0059c1;
 }
 
-.imagesRow {
+
+.images-row {
   display: flex;
   align-items: center;
   gap: 18px;
@@ -79,48 +81,51 @@
   background-color: cyan;
 }
 
-.smallImages {
+.small-images {
   display: flex;
   gap: 10px;
   background-color: crimson;
 }
 
-.roundImg {
+.round-img {
   border-radius: 50%;
+  border: 2px solid #e0e0e0;
   background: #00ff37;
-  width: 5rem;
-  height: 5rem;
 }
 
-.btnSide {
+.btn-side {
   margin-left: 12px;
   background: #ff9800;
 }
-.btnSide:hover {
+.btn-side:hover {
   background: #e67c00;
 }
-.rightBlock {
+.right-block {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
-.bigImg {
+
+.big-img {
   border-radius: 18px;
   border: 3px solid #e0e0e0;
   background: #fff;
 }
-.bigButtons {
+
+.big-buttons {
   display: flex;
   gap: 24px;
   margin-top: 12px;
 }
-.btnBig {
+
+.btn-big {
   padding: 16px 40px;
   font-size: 1.2rem;
   border-radius: 12px;
   background: #43a047;
 }
-.btnBig:hover {
+
+.btn-big:hover {
   background: #2e7031;
 }
