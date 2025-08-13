@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=National+Park:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap');
+
+.infoCard {
+  width: 75%;
+  margin-top: 2rem;
+  margin: 3rem auto;
+  position: relative;
+}
+
+.infoCardBar {
+  background-color: #c4e6d2; 
+  width: 100%;
+  height: 7rem;
+  border-radius: 12px;
+}
+
+.infoCardIcon {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: calc(8rem - 50px); 
+  left: 35px; 
+  z-index: 10; 
+}
+
+.infoCardContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  gap: 3px;
+  padding-left: 190px; 
+}
+
+.infoCardTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Ancizar Serif", serif;
+}
+
+.infoCardText {
+  color: #444;
+  font-size: 1.4rem;
+  font-family: "Ancizar Serif", serif;
+}
