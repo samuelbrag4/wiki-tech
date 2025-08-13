@@ -3,8 +3,21 @@ import styles from './teste.module.css';
 
 import SectionTitle from "../../components/SectionTitle/page"
 import SectionText from "../../components/SectionText/page";
+import StepList from "../../components/StepList/page"
 
 export default function Teste() {
+
+    const steps = [
+        { 
+            title: "Instalar dependências", 
+            text: "npm install react next" 
+        },
+        { 
+            title: "Rodar o servidor", 
+            text: "npm run dev" 
+        }
+    ];
+
     return (
         <div>
             <SectionTitle
@@ -16,6 +29,10 @@ export default function Teste() {
             <SectionText
                 title="Título da Seção"
                 text="Texto explicativo sobre a seção. Aqui você pode adicionar mais informações relevantes."
+            />
+            <StepList
+                title="Passos para começar"
+                steps={steps}
             />
         </div>
     );
