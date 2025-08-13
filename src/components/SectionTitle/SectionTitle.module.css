@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=National+Park:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap');
 
 .infoCard {
-  width: 75%;
+  width: 70%;
   margin-top: 2rem;
   margin: 3rem auto;
   position: relative;
@@ -39,6 +39,6 @@
 
 .infoCardText {
   color: #444;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: "Ancizar Serif", serif;
 }
